@@ -1,0 +1,124 @@
+* {
+	padding: 0px ;
+	margin:  0px ;
+}
+img {
+	border: none;
+	float: left;
+	margin: 30px 0px 10px 20px;
+
+}
+body {
+	background: url("Beautifule-floral-tree-vector-material-02.jpg") ;
+	background-size: 700px 1000px;
+	background-repeat: no-repeat;
+	background-position: right top;
+	margin: 400px auto;
+	max-width: 1500px ;
+	min-width: 990px;
+	margin: 0 auto ;
+}
+.header {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cedbe9+0,4920c1+0,aac5de+49,aac5de+49,4920c1+100,3a8bc2+100,4bb8f0+100 */
+	background: #cedbe9; /* Old browsers */
+	background: -moz-linear-gradient(left,  #cedbe9 0%, #4920c1 0%, #aac5de 49%, #aac5de 49%, #4920c1 100%, #3a8bc2 100%, #4bb8f0 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left,  #cedbe9 0%,#4920c1 0%,#aac5de 49%,#aac5de 49%,#4920c1 100%,#3a8bc2 100%,#4bb8f0 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right,  #cedbe9 0%,#4920c1 0%,#aac5de 49%,#aac5de 49%,#4920c1 100%,#3a8bc2 100%,#4bb8f0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedbe9', endColorstr='#4bb8f0',GradientType=1 ); /* IE6-9 */
+
+	overflow: hidden;
+}
+
+/*.main {
+	background: rgb(20,50,150);
+}*/
+
+.name {
+	float: left;
+	font-size: 400%;
+	margin: 40px 0 0 20px;
+	text-align: center;
+	font-family: "UbuntuBold";
+	color:red;
+}
+.contacts{
+	float: right ;
+	text-align: right;
+	border: 2px solid rgb(25,115,232);
+	border-radius: 0 0 10px 10px;
+	margin: 15px 14px 0 0 ;
+	padding: 3px 2px 3px 2px;
+	color: white ;
+}
+.contacts span{
+	font-size: 100%;
+	font: bold;
+}
+
+.search {
+	float: right;
+	font-weight: normal;
+	list-style: none;
+	margin: 140px 5px 10px 800px;
+}
+.manu {
+    background-color: rgb(156,204,255);
+    display: table-row;
+    list-style: none;
+/*    border-radius: 5px;
+    margin-bottom: 20px;*/
+}
+.manu li {
+	display: table-cell;
+	width: auto;
+	text-align: center;
+	height: 50px;
+}
+	.manu li a {
+		display: block;
+		width: 298px;
+		margin: 0;
+		height: 50px;
+		vertical-align: middle;
+		display: table-cell;
+		text-decoration: none;
+		font: 20px bold;
+		color: white;
+		border-left: 1px solid rgb(161,186,214);
+		border-right: 1px solid rgb(120,182,255);
+		/*padding: auto;*/
+		/*text-align: center;*/
+
+	}
+		.manu li a:hover{
+			background: #5009b9; /* Цвет фона под ссылкой */
+			color: #ffe; /* Цвет ссылки */
+		}
+
+		#contentManu {
+			background: white;
+			float:left ;
+			width: 100%;
+
+		}
+			#left_manu{
+				background: oldlace;
+				float: left;
+				width: 240px;
+				height: 1500px;
+				margin-left: -100%;
+			}
+			#content {
+				margin: 0 245px 0 240px;
+				background: cornflowerblue;
+				height: 1500px;
+
+			}
+			#rigth_manu{
+				background: cyan;
+				float: left;
+				width: 245px;
+				margin-left: -245px;
+				height: 1500px;
+
+			}
